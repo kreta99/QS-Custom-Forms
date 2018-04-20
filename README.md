@@ -1,1 +1,2 @@
-# QS-Custom-Forms
+# Custom login, logout and error forms for Qlik Sense
+
