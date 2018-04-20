@@ -5,6 +5,6 @@ Prepare you custom forms based on attached samples, follow deployment instructio
 ### Prerequisites
 Qlik Sense November 2017 or above, Node.js with npm modules: request, fs  
 #### Installing
-Install node.js. Copy custom_forms.js and your forms to one directiory
+Install node.js. Copy custom_forms.js to any directory. Make sure that custom_form.js script can access Qlik Sense cerficates (line 5 with path), if not export them form QMC. Update variable hostname (line 10) if needed. 
 #### Using
-Open windows Power Shell, go to folder with custom_forms.js and execute command: node custom_forms
+Prepare you custom forms. Each of them must be one html file, so include all resources as css, js, images etc in html. Copy forms to the directory where custom_forms.js exists.Open windows Power Shell as Administrator, go to folder with custom_forms.js and execute command: "node custom_forms". This utility will read your html forms, encode them and update Qlik Proxy properties.
