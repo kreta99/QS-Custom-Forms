@@ -1,7 +1,7 @@
 # Custom login, logout and error forms for Qlik Sense
-Simple JavaScript application to replace login, logout and error forms in Qlik Sense. 
+Simple JavaScript application to customize login, logout and error forms in Qlik Sense. 
 ## Getting Started
-Prepare your custom forms, follow deployment instruction and update Qlik Sense by executing one command. This extension keeps original forms unchanged, just imports new ones and changes some setting in Qlik Proxy, so you can easy restore default settings.
+Prepare your custom forms, follow deployment instruction and update Qlik Sense by executing one command. This extension keeps original forms unchanged, just imports new ones and changes some settings in Qlik Proxy, so you can easy restore default settings.
 ## Prerequisites
 Qlik Sense November 2017 or above, Node.js with npm modules: request, fs  
 ## Installing
